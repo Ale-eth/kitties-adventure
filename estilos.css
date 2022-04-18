@@ -1,1 +1,69 @@
-asda 57:09
+*{
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+    background-color: rgba(0, 0, 0, 0.649);
+}
+#game-container{
+    position: relative;
+}
+
+#bar{
+    position: absolute;
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#hp-bg{
+    background-color: rgba(60, 53, 53, 0.815);
+    width:40%;
+    height:30px;
+    margin-left: 40px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 7px;
+}
+#hp{
+    position: absolute;
+    background-color:green;
+    width: 90%;
+    height:20px;
+    border-radius: 8px;
+}
+
+#timer{
+    background-color: yellow;
+    width: 100px;
+    height:100px;
+    flex-shrink: 0;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#enemyhp-bg{
+    background-color: rgba(60, 53, 53, 0.815);
+    width:40%;
+    height:30px;
+    margin-right: 40px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    justify-content: flex-end;
+} 
+
+#enemyhp{
+    position:absolute;
+    background-color: red;
+    width: 90%;
+    height:20px;
+    border-radius: 8px;
+}
